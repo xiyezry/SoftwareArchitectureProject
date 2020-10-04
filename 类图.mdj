@@ -493,7 +493,7 @@
 											"font": "Arial;13;0",
 											"left": 576,
 											"top": 336,
-											"width": 73.67724609375,
+											"width": 82.56396484375,
 											"height": 13,
 											"text": "(from Model)"
 										},
@@ -910,7 +910,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": 1552,
-											"width": 73.67724609375,
+											"width": 82.56396484375,
 											"height": 13,
 											"text": "(from Model)"
 										},
@@ -1257,7 +1257,7 @@
 											"font": "Arial;13;0",
 											"left": 1520,
 											"top": -240,
-											"width": 73.67724609375,
+											"width": 82.56396484375,
 											"height": 13,
 											"text": "(from Model)"
 										},
@@ -1522,7 +1522,7 @@
 											"font": "Arial;13;0",
 											"left": 704,
 											"top": -480,
-											"width": 73.67724609375,
+											"width": 82.56396484375,
 											"height": 13,
 											"text": "(from Model)"
 										},
@@ -1787,7 +1787,7 @@
 											"font": "Arial;13;0",
 											"left": 400,
 											"top": -768,
-											"width": 73.67724609375,
+											"width": 82.56396484375,
 											"height": 13,
 											"text": "(from Model)"
 										},
@@ -2124,7 +2124,7 @@
 									"font": "Arial;13;0",
 									"left": 367,
 									"top": 435,
-									"width": 19.5126953125,
+									"width": 19.79833984375,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 25,
@@ -2395,7 +2395,7 @@
 									"font": "Arial;13;0",
 									"left": 687,
 									"top": 435,
-									"width": 19.5126953125,
+									"width": 19.79833984375,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 25,
@@ -2457,7 +2457,7 @@
 									"font": "Arial;13;0",
 									"left": 693,
 									"top": 387,
-									"width": 7.22998046875,
+									"width": 7.62353515625,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -2666,7 +2666,7 @@
 									"font": "Arial;13;0",
 									"left": 954,
 									"top": 435,
-									"width": 19.5126953125,
+									"width": 19.79833984375,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 25,
@@ -2728,7 +2728,7 @@
 									"font": "Arial;13;0",
 									"left": 959,
 									"top": 389,
-									"width": 7.22998046875,
+									"width": 7.62353515625,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -2937,7 +2937,7 @@
 									"font": "Arial;13;0",
 									"left": 437,
 									"top": 595,
-									"width": 19.5126953125,
+									"width": 19.79833984375,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 25,
@@ -2999,7 +2999,7 @@
 									"font": "Arial;13;0",
 									"left": 592,
 									"top": 594,
-									"width": 19.5126953125,
+									"width": 19.79833984375,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -3208,7 +3208,7 @@
 									"font": "Arial;13;0",
 									"left": 757,
 									"top": 594,
-									"width": 19.5126953125,
+									"width": 19.79833984375,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 25,
@@ -3270,7 +3270,7 @@
 									"font": "Arial;13;0",
 									"left": 856,
 									"top": 594,
-									"width": 19.5126953125,
+									"width": 19.79833984375,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -3439,7 +3439,8 @@
 								"$ref": "AAAAAAF0xOvJ0lBiS8g="
 							},
 							"name": "年龄",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3448,7 +3449,8 @@
 								"$ref": "AAAAAAF0xOvJ0lBiS8g="
 							},
 							"name": "性别",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3457,7 +3459,8 @@
 								"$ref": "AAAAAAF0xOvJ0lBiS8g="
 							},
 							"name": "身高",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3466,7 +3469,8 @@
 								"$ref": "AAAAAAF0xOvJ0lBiS8g="
 							},
 							"name": "体重",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3474,7 +3478,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF0xOvJ0lBiS8g="
 							},
-							"name": "院系"
+							"name": "院系",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3483,7 +3488,8 @@
 								"$ref": "AAAAAAF0xOvJ0lBiS8g="
 							},
 							"name": "学号",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3492,7 +3498,8 @@
 								"$ref": "AAAAAAF0xOvJ0lBiS8g="
 							},
 							"name": "身体状况",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3501,7 +3508,8 @@
 								"$ref": "AAAAAAF0xOvJ0lBiS8g="
 							},
 							"name": "禁赛情况",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						}
 					],
 					"operations": [
@@ -3622,7 +3630,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF0xPAfp1DX5/o="
 							},
-							"name": "赛事名称"
+							"name": "赛事名称",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3630,7 +3639,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF0xPAfp1DX5/o="
 							},
-							"name": "赛事负责人"
+							"name": "赛事负责人",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3638,7 +3648,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF0xPAfp1DX5/o="
 							},
-							"name": "赛事等级"
+							"name": "赛事等级",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3646,7 +3657,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF0xPAfp1DX5/o="
 							},
-							"name": "赛事时间"
+							"name": "赛事时间",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3655,7 +3667,8 @@
 								"$ref": "AAAAAAF0xPAfp1DX5/o="
 							},
 							"name": "参赛人数",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3664,7 +3677,8 @@
 								"$ref": "AAAAAAF0xPAfp1DX5/o="
 							},
 							"name": "淘汰赛制",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3673,7 +3687,8 @@
 								"$ref": "AAAAAAF0xPAfp1DX5/o="
 							},
 							"name": "参赛人员",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3682,7 +3697,8 @@
 								"$ref": "AAAAAAF0xPAfp1DX5/o="
 							},
 							"name": "裁判组",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						}
 					],
 					"operations": [
@@ -3782,7 +3798,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF0xPJLWVFC7SM="
 							},
-							"name": "姓名"
+							"name": "姓名",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3791,7 +3808,8 @@
 								"$ref": "AAAAAAF0xPJLWVFC7SM="
 							},
 							"name": "年龄",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3800,7 +3818,8 @@
 								"$ref": "AAAAAAF0xPJLWVFC7SM="
 							},
 							"name": "所属单位",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3808,7 +3827,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF0xPJLWVFC7SM="
 							},
-							"name": "工号"
+							"name": "工号",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3817,7 +3837,8 @@
 								"$ref": "AAAAAAF0xPJLWVFC7SM="
 							},
 							"name": "职称",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						}
 					],
 					"operations": [
@@ -3886,7 +3907,8 @@
 								"$ref": "AAAAAAF0xP6B8lJBJ8c="
 							},
 							"name": "裁判员",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						}
 					],
 					"operations": [
@@ -3939,7 +3961,8 @@
 								"$ref": "AAAAAAF0xP8fzlJ0RsU="
 							},
 							"name": "赛事",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						}
 					],
 					"operations": [
@@ -3992,7 +4015,8 @@
 								"$ref": "AAAAAAF0xP9bcVKfjak="
 							},
 							"name": "运动员",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						}
 					],
 					"operations": [
