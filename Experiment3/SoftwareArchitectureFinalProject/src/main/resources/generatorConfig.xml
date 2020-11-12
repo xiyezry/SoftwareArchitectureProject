@@ -1,0 +1,40 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<!DOCTYPE generatorConfiguration-->
+<!--        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"-->
+<!--        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">-->
+
+<!--<generatorConfiguration>-->
+<!--    &lt;!&ndash;配置要链接的数据库的数据源&ndash;&gt;-->
+<!--    <classPathEntry location="C:\Users\xiye\.m2\repository\mysql\mysql-connector-java\8.0.17\mysql-connector-java-8.0.17.jar"/>-->
+<!--    &lt;!&ndash;-Mybatis上下文&ndash;&gt;-->
+<!--    <context id="MySqlContext" targetRuntime="MyBatis3">-->
+<!--        &lt;!&ndash;配置数据库的链接信息&ndash;&gt;-->
+<!--        <jdbcConnection driverClass="com.mysql.jdbc.Driver"-->
+<!--                        connectionURL="jdbc:mysql://localhost:3306/sports_event_management_system?characterEncoding=utf-8&amp;serverTimezone=GMT"-->
+<!--                        userId="root"-->
+<!--                        password="root"/>-->
+<!--        &lt;!&ndash;数据库BigDecimals字段在java中定义&ndash;&gt;-->
+<!--        <javaTypeResolver>-->
+<!--            <property name="forceBigDecimals" value="false"/>-->
+<!--        </javaTypeResolver>-->
+<!--        &lt;!&ndash;实体类生成信息&ndash;&gt;-->
+<!--        <javaModelGenerator targetPackage="com.example.softwarearchitecture.model" targetProject="src/main/java">-->
+<!--            <property name="enableSubPackages" value="true"/>-->
+<!--            <property name="trimStrings" value="true"/>-->
+<!--        </javaModelGenerator>-->
+<!--        &lt;!&ndash;mybatis 的xml文件地址&ndash;&gt;-->
+<!--        <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources">-->
+<!--            <property name="enableSubPackages" value="true"/>-->
+<!--        </sqlMapGenerator>-->
+<!--        &lt;!&ndash;mybatis的mapper接口&ndash;&gt;-->
+<!--        <javaClientGenerator targetPackage="com.example.softwarearchitecture.dao" targetProject="src/main/java" type="XMLMAPPER">-->
+<!--            <property name="enableSubPackages" value="true"/>-->
+<!--        </javaClientGenerator>-->
+<!--        &lt;!&ndash;要生成的表结构&ndash;&gt;-->
+<!--        <table tableName="athletes" domainObjectName="Athletes" enableCountByExample="false"></table>-->
+<!--        <table tableName="compitition" domainObjectName="Compitition" enableCountByExample="false"></table>-->
+<!--        <table tableName="referee" domainObjectName="Referee" enableCountByExample="false"></table>-->
+
+<!--    </context>-->
+
+<!--</generatorConfiguration>-->
