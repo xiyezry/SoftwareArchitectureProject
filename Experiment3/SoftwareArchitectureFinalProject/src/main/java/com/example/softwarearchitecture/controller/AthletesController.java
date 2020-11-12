@@ -1,6 +1,7 @@
 package com.example.softwarearchitecture.controller;
 
 import com.example.softwarearchitecture.dao.AthletesMapper;
+import com.example.softwarearchitecture.vo.AthletesVO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import com.example.softwarearchitecture.model.Athletes;
@@ -32,8 +33,9 @@ public class AthletesController {
             rollbackFor = Exception.class
     )
     @ResponseBody
-    public Athletes getSimpleMapByPK(@RequestParam(value = "id")Integer id){
-        return athletesService.getSimpleMapByPK(id);
+    public AthletesVO getSimpleMapByPK(@RequestParam(value = "id")Integer id){
+        Athletes entity = athletesService.getSimpleMapByPK(id);
+        return new AthletesVO(entity.getId(),entity.getName(),entity.getBirthday(),entity.getGender(), entity.getHeight(), entity.getWeight(), entity.getDepartment(), entity.getBodyCondition(), entity.getBanned(),20000);
     }
 
 //    public Athletes post(@RequestParam(value = "id")Integer id,
